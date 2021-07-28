@@ -1,0 +1,180 @@
+/* ===========Google font link========= */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* =============Utilities========== */
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* =============Banner section=================== */
+.banner-section{
+    background-color: #264653;
+    padding: 96px 0;
+}
+.banner-content{
+    padding: 100px;
+}
+small{
+    font-size: 14px;
+}
+.banner-heading{
+    font-weight: 600;
+}
+.banner-paragraph{
+    color: #E0E0E0;
+    font-size: 16px;
+}
+.purchase-button{
+    background-color: #E76F51;
+    padding: 10px 46px;
+    font-weight: 500;
+}
+
+/* ===================Feature Bike section============ */
+.feature-bike-section{
+    margin-bottom: 165px;
+}
+.feature-content{
+    margin: 64px 0 120px 0;
+}
+.feature-bike-heading{
+    color: black;
+    font-weight: 600;
+    font-size: 48px;
+}
+.bike-collection-content{
+    color: #E76F51;
+    font-size: 14px;
+    font-weight: 600;
+}
+.feature-bike-image img{
+    filter: grayscale(100%)
+}
+.individual-bike-image {
+    padding: 0 83px;
+}
+
+/* ==================Client Section=============== */
+.happy-client-section{
+    margin-bottom: 150px;
+}
+.client-heading{
+    font-weight: 600;
+    font-size: 48px;
+    margin-bottom: 50px;
+}
+.client-says{
+    color: #E76F51;
+}
+.individual-client-section{
+   border: 1px solid gray;
+}
+.individual-client{
+    padding: 40px 35px;
+}
+.client-image{
+    width: 150px;
+}
+
+.Card-content {
+    color: #6C6C6C;
+    font-size: 16px;
+    margin-top: 30px;
+}
+.fas, .far{
+    color: #E77C40;
+}
+.author-name{
+    color: #23A6F0;
+    font-weight: 600;
+    font-size: 14px;
+    padding-top: 15px;
+}
+.author-job-title{
+    color: #252B42;
+    font-weight: 600;
+    font-size: 14px;
+    padding-top: 15px;
+}
+#last-client{
+    border-radius: 50%;
+}
+
+/* ===========================Freequently Asked Question================== */
+.frequently-asked-question-section{
+    margin-bottom: 60px;
+}
+.frequently-asked-question-heading{
+    font-weight: 600;
+    font-size: 48px;
+    margin-bottom: 110px;
+}
+.frequently-asked-question{
+    color: #E77C40;
+}
+.accordion-heading{
+    color: #383838 !important;
+    font-weight: 500;
+    font-size: 20px;
+}
+.accordion-article{
+    color: #7E848C;
+    font-size: 16px;
+}
+.accordion-area{
+    margin-bottom: 27px;
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 688px) {
+    .banner-area{
+        width: 100%;
+    }
+    .banner-heading{
+        font-size: 41px;
+    }
+    .banner-image{
+        margin-top: 35px;
+    }
+    .banner-image img{
+        width: 100%;
+    }
+    .banner-content{
+        padding: 30px;
+    }
+    .feature-bike-heading {
+        font-size: 39px;
+    }
+
+    .individual-bike-image {
+        padding: 83px 35px 44px 35px;
+    }
+    .feature-content {
+        margin: 115px 0 30px 0;
+    }
+    .client-area{
+        width: 100%;
+        margin: 0;
+    }
+    .client-heading {
+        font-size: 56px;
+        margin-top: -44px;
+    }
+    .frequently-asked-question-image img {
+        width: 100%;
+        padding: 0 25px;
+        margin-bottom: 45px;
+    }
+    .frequently-asked-question-heading{;
+        font-size: 46px;
+    }
+   
+}
