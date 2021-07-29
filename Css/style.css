@@ -25,7 +25,7 @@ small{
 .banner-heading{
     font-weight: 600;
 }
-.banner-paragraph{
+.banner-article{
     color: #E0E0E0;
     font-size: 16px;
 }
@@ -36,7 +36,7 @@ small{
 }
 
 /* ===================Feature Bike section============ */
-.feature-bike-section{
+.feature-bike-section, .categories-section{
     margin-bottom: 165px;
 }
 .feature-content{
@@ -128,7 +128,7 @@ small{
 }
 .top-sell-content h1, .categories-heading h1{
     font-weight: 600;
-    font-size: 48px;
+    font-size: 47px;
 }
 .feature-product-image{
     border-radius: 12px;
@@ -140,13 +140,19 @@ small{
     background-color: rgba(128, 128, 128, 0.781);
 }
 
+/* ==================Categories section================= */
+.search-section {
+    padding: 30px 0 23px 0;
+}
+input[type=radio] {
+    margin-right: 10px;
+    width: 15px;
+    height: 15px;
+}
 
 
 
-
-
-
-
+/* ==============Applying Media Query=============== */
 
 @media only screen and (max-width: 688px) {
     .banner-area{
@@ -192,7 +198,9 @@ small{
     }
     .search-section {
         width: 100% !important;
-        padding-left: 62px;
+        padding-left: 16px;
     }
-   
+    .price-category{
+        padding-left: 10px;
+    }
 }
