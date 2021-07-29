@@ -7,6 +7,9 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+.common-style{
+    color: #E76F51;
+}
 
 /* =============Banner section=================== */
 .banner-section{
@@ -57,16 +60,13 @@ small{
 }
 
 /* ==================Client Section=============== */
-.happy-client-section{
-    margin-bottom: 150px;
+.happy-client-section {
+    margin-bottom: 130px;
 }
 .client-heading{
     font-weight: 600;
     font-size: 48px;
     margin-bottom: 50px;
-}
-.client-says{
-    color: #E76F51;
 }
 .individual-client-section{
    border: 1px solid gray;
@@ -81,10 +81,7 @@ small{
 .Card-content {
     color: #6C6C6C;
     font-size: 16px;
-    margin-top: 30px;
-}
-.fas, .far{
-    color: #E77C40;
+    margin-top: 20px;
 }
 .author-name{
     color: #23A6F0;
@@ -111,9 +108,6 @@ small{
     font-size: 48px;
     margin-bottom: 110px;
 }
-.frequently-asked-question{
-    color: #E77C40;
-}
 .accordion-heading{
     color: #383838 !important;
     font-weight: 500;
@@ -126,6 +120,26 @@ small{
 .accordion-area{
     margin-bottom: 27px;
 }
+
+/* =====================Top Sell Bike Section============= */
+.top-sell-content, .categories-heading {
+    margin-bottom: 60px;
+    margin-top: 90px;
+}
+.top-sell-content h1, .categories-heading h1{
+    font-weight: 600;
+    font-size: 48px;
+}
+.feature-product-image{
+    border-radius: 12px;
+}
+.honda-feature-icon{
+    padding-right: 7px;
+}
+.individual-top-sell-bike{
+    background-color: rgba(128, 128, 128, 0.781);
+}
+
 
 
 
@@ -175,6 +189,10 @@ small{
     }
     .frequently-asked-question-heading{;
         font-size: 46px;
+    }
+    .search-section {
+        width: 100% !important;
+        padding-left: 62px;
     }
    
 }
